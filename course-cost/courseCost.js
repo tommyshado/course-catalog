@@ -3,16 +3,16 @@ function courseCost(courseCode, startDateStr){
 
     const courses = {
         "p1" : {
-            courseName : "",
-            cost : 0.00
+            courseName : "Python",
+            cost : "R7850.00"
         },
         "p2" : {
-            courseName : "",
-            cost : 0.00
+            courseName : "Intro to PHP course",
+            cost : "R8990.00"
         }, 
         "r1" : {
-            courseName : "",
-            cost : 0.00
+            courseName : "Ruby on Rails intro",
+            cost : "R5675.00"
         }
     }
 
