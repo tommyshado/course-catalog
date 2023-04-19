@@ -1,4 +1,4 @@
-# Courses Catalogue For Local Bootcamp
+# Course Catalogue for local Coding Bootcamp
 
 A Local programming bootcamp in your area is designing a course catalog for their students. As an experienced developer in the area they asked you to build the course catalog with the courses they are offering.
 
