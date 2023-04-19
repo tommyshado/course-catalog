@@ -2,34 +2,12 @@
 
 A Local programming bootcamp in your Area is designing their course catalog for their students as the developer in the area they ask you to build them a their students course catalog with the courses they are offering. The catalog consist of five different sections
 
-**Nav bar section** : This section navigate different section of the catalog 
-Tech is used : CSS tricks
-
-**Courses description section** : This section consist of course description and a image
-With info button and start course button. 
-
-**Related courses** : This section consist of related courses links and they are styled 
-
-**Footer** : About this section and sum necessary lints
-
-**Testing Part - Focuses on Mocha set-up and writing unit tests**
-Files
-Test
-Course.js
-index.html
-
-We will provide the code for the factory function. 
-Coders will have to write unit tests
-
-**Scenario** 
-* Get 40% when taking the course on 20-25th.
-* Get 20% when taking a course on 10-20th 
-* Cost per course is R300
 
 Help them:
 
-* to create a [responsive home page](./responsive-page) page,
+* to create a [Responsive home page](./responsive-page) page,
 * by creating a test for their [Coure Cost](./course-cost) function,
+* by creating a function for the [Tutor Wages](./tutor-wages) tests
 
 Clone and fork this repo and do the above tasks.
 eg `git clone <github_url_here>`
