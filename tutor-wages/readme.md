@@ -50,5 +50,10 @@ The overtime rates are listed above
 
 ## Make tests pass
 
-Make the tests pass in `tutorWageCalculator.test.js` and `tutorOvertimeWageCalculator.js` by implementing the functions.
+Make the tests pass in `tutorWageCalculator.test.js` and `tutorOvertimeWageCalculator.js` by implementing the `tutorWageCalculator` & `tutorOvertimeWageCalculator` functions. Do the `tutorWageCalculator` function first. And if you have time do the `tutorOvertimeWageCalculator` function.
+
+
+
+
+
 
