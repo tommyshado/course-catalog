@@ -28,7 +28,7 @@ Coders will have to write unit tests
 
 Help them:
 
-* to create a [responsive home page](./responsive_page) page,
+* to create a [responsive home page](./responsive-page) page,
 * by creating a test for their [Coure Cost](./course-cost) function,
 
 Clone and fork this repo and do the above tasks.
