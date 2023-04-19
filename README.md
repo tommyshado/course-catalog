@@ -29,7 +29,7 @@ Coders will have to write unit tests
 Help them:
 
 * to create a [responsive home page](./responsive-page) page,
-* by creating a test for their [Coure Cost](./course-cost) function,
+* by creating a test for their [Course Cost](./course-cost) function,
 
 Clone and fork this repo and do the above tasks.
 eg `git clone <github_url_here>`

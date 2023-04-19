@@ -3,7 +3,7 @@
 As part of creating the Course Catalogue Web App you need to create a function that can calculate course cost discount if applicable.
 
 * Get a 40% discount for a course starting between the 20 and 25th of the month.
-* Get a 20% discount for a course starting between the 10th and 25th of the month.
+* Get a 20% discount for a course starting between the 10th and 15th of the month.
 * Otherwise no discounts
 
 The course costs are as follows:
