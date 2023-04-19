@@ -4,9 +4,9 @@ A Local programming bootcamp in your area is designing a course catalog for thei
 
 They need help with these three sections:
 
-* to create a [Responsive home page](./responsive-page) page,
-* by creating a test for their [Course Cost](./course-cost) function,
-* by creating a function for the [Tutor Wages](./tutor-wages) tests
+* to create a [responsive course catalogue](./responsive-page) page,
+* tests for their [courseCost](./course-cost) function - they already wrote the function,
+* a function that can calculate [Tutor Wages](./tutor-wages) - they wrote some tests for the function.
 
 Clone and fork this repo and complte the above tasks.
 
