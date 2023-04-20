@@ -58,11 +58,12 @@ describe('courseCost function', () => {
                                     code: "r1",
                                     description : "Ruby on Rails intro",
                                     cost : 5675,
-                                    discount: 3596,
-                                    amountDue : 5394
+                                    discount: 2270,
+                                    amountDue : 3405
                                 }
-                                console.log(returnedValue)
             assert.deepEqual(returnedValue, expectedValue);
         })
+
+    
     });
 })
