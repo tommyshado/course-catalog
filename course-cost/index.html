@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/9.0.2/mocha.min.js" charset="utf-8"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"></script>
+
+  </head>
+  <body>
+    <div id="mocha"></div>
     
-</body>
+    <script class="mocha-init">
+      mocha.setup('bdd');
+      var assert = chai.assert;
+      </script>
+
+    <script src="./courseCost.js"></script>
+    <script src="./test/cost.test.js"></script>
+
+    <script class="mocha-exec">
+        mocha.run();
+        mocha.checkLeaks();
+    </script>
+  </body>
 </html>
