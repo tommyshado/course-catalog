@@ -44,7 +44,7 @@ Write unit tests that:
 * Ensure that courses get different prices across discount windows
 * Ensure different courses has different prices
 * Ensure that invalid course codes are handled correctly
-
+* Ensure that invalid dates returns a status of: `Invalid day`
 
 ## Function details
 
