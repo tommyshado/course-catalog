@@ -25,6 +25,12 @@ function courseCost(courseCode, startDateStr){
     }
 
     const day = Number(startDate.getDate());
+  	
+  	if (isNaN(day)) {
+      return {
+        status : "Invalid day"
+      }
+    }
   
     let discountRate = 0;
     let courseCost = course.cost;
