@@ -4,4 +4,10 @@ body {
 
 .menu-top {
     float: right;
+    display: flex;
+}
+
+.box-model {
+    margin: 1em;
+    padding: 1em;
 }
