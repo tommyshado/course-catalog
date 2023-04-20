@@ -51,7 +51,7 @@ Write unit tests that:
 To get the cost for a `Ruby on Rails` course starting on `21 May 2023` use this function call
 
 ```js
-const cost = courseCost(“r1”, “21-05-2023”);
+const cost = courseCost("r1", "2023-05-21");
 console.log(cost);
 ```
 
