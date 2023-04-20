@@ -116,4 +116,28 @@ describe('courseCost function', () => {
             assert.deepEqual(returnedValue, expectedValue)
         });
     });
+    describe('ensure different courses have different prices', () => {
+        it('when the user inputs `p1` and `p2` and enters the same day, it returns true', () => {
+            let returnedValue = courseCost('p1', '2023-05-23');
+            let returnedValue2 = courseCost('p2', '2023-05-23');
+
+            assert.deepEqual(returnedValue.cost, 7850);
+            assert.deepEqual(returnedValue2.cost, 8990.00);
+        });
+
+        it('when the user inputs `r1` and `p2` and enters the same day, it returns true', () => {
+            let returnedValue = courseCost('r1', '2023-05-10');
+            let returnedValue2 = courseCost('p2', '2023-05-10');
+
+            assert.deepEqual(returnedValue.cost, 5675.00);
+            assert.deepEqual(returnedValue2.cost, 8990.00);
+        });
+        it('when the user inputs `p1` and `r2` and enters the same day, it returns true', () => {
+            let returnedValue = courseCost('p1', '2023-05-25');
+            let returnedValue2 = courseCost('r1', '2023-05-25');
+
+            assert.deepEqual(returnedValue.cost, 7850);
+            assert.deepEqual(returnedValue2.cost, 5675.00);
+        });
+    });
 })
