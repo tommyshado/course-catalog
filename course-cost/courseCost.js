@@ -26,7 +26,7 @@ function courseCost(courseCode, startDateStr){
 
     const day = Number(startDate.getDate());
   	
-  	if (isNaN(day)) {
+    if (isNaN(day)) {
       return {
         status : "Invalid day"
       }
