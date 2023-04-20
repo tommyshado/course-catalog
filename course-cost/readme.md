@@ -31,7 +31,7 @@ Only focus on:
 Files given:
 
 * `courseCost.test.js` - empty file
-* `courseCost.js` - working function
+* `test/courseCost.js` - working function
 * `index.html` - empty file
 
 The working `courseCost` function is provided see it in the `courseCost.js` file.
