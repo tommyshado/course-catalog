@@ -23,7 +23,9 @@ function tutorWageCalculator(string, level) {
                 hoursObj.levelThree += currentHours;
             }
         }
-    } else {
+    }
+
+    if (splitStr.length < 5 || splitStr.length > 7) {
         return 'invalid'
     }
 
@@ -59,4 +61,4 @@ function tutorWageCalculator(string, level) {
     }
 }
 
-console.log(tutorWageCalculator("4-4-4-8-5", 2));
+console.log(tutorWageCalculator("0-6-0-4", 2));
