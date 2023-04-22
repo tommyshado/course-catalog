@@ -26,7 +26,7 @@ function tutorWageCalculator(string, level) {
     }
 
     if (splitStr.length < 5 || splitStr.length > 7) {
-        return 'invalid'
+        return 0;
     }
 
     // compare the hours of level 1 to 40 hours
@@ -61,4 +61,4 @@ function tutorWageCalculator(string, level) {
     }
 }
 
-console.log(tutorWageCalculator("0-6-0-4", 2));
+console.log(tutorWageCalculator("4-8-5", 1));
