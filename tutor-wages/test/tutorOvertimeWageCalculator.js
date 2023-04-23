@@ -19,7 +19,8 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
     // iterate over the length of the object
     for (let currentLevel in overTimeHoursObj) {
         if (overTimeHoursObj[currentLevel] > 0) {
-            return overTimeHoursObj[currentLevel] * (75);
+            // hours per week supposed to be 40
+            return ((overTimeHoursObj[currentLevel] - 40) * (75)) * 7 / 100 + (overTimeHoursObj[currentLevel] - 40) * (75);
         }
     }
 }
