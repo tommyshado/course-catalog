@@ -28,7 +28,7 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
         } else if (overTimeHoursObj[currentLevel] > 0 && currentLevel === 'levelTwo') {
             // hours per week supposed to be 40
             return ((overTimeHoursObj[currentLevel] - 40) * (90)) * 9 / 100 + (overTimeHoursObj[currentLevel] - 40) * (90);
-        } else if (overTimeHoursObj[currentLevel] > 0 && currentLevel === 'levelOne') {
+        } else if (overTimeHoursObj[currentLevel] > 0 && currentLevel === 'levelThree') {
             // hours per week supposed to be 40
             return ((overTimeHoursObj[currentLevel] - 40) * (105)) * 12 / 100 + (overTimeHoursObj[currentLevel] - 40) * (105);
         }
