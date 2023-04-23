@@ -15,9 +15,7 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
                 overTimeHoursObj.levelThree += currentHours;
             }
         }
-    } 
-
-    return overTimeHoursObj
+    }
     // iterate over the length of the object
     for (let currentLevel in overTimeHoursObj) {
         if (overTimeHoursObj[currentLevel] > 0) {
