@@ -9,16 +9,12 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
         if (currentHours > 8 || splitTimeSheet.indexOf(5) || splitTimeSheet.indexOf(6)) {
             if (tutorLvel === 1) {
                 overTimeHoursObj.levelOne += currentHours;
+            }  else if (tutorLvel === 2) {
+                overTimeHoursObj.levelTwo += currentHours;
+            } else {
+                overTimeHoursObj.levelThree += currentHours;
             }
         }
-
-        // if (tutorLvel === 1) {
-        //     overTimeHoursObj.levelOne += currentHours;
-        // } else if (tutorLvel === 2) {
-        //     overTimeHoursObj.levelTwo += currentHours;
-        // } else {
-        //     overTimeHoursObj.levelThree += currentHours;
-        // }
     } 
 
     return overTimeHoursObj
