@@ -3,9 +3,10 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
 
     let splitTimeSheet = timeSheet.split('-');
     // iterate starting from second last element
-    for(let i = splitTimeSheet.length - 2; i < splitTimeSheet.length; i++) {
+    for(let i = 0; i < splitTimeSheet.length; i++) {
         const currentHours = Number(splitTimeSheet[i]);
 
+        
         if (tutorLvel === 1) {
             overTimeHoursObj.levelOne += currentHours;
         } else if (tutorLvel === 2) {
@@ -14,7 +15,12 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
             overTimeHoursObj.levelThree += currentHours;
         }
     }
-    console.log(overTimeHoursObj)
+    // iterate over the length of the object
+    for (let currentLevel in overTimeHoursObj) {
+        if (overTimeHoursObj[currentLevel] > 0) {
+            return overTimeHoursObj[currentLevel] * (75);
+        }
+    }
 }
 
 let returnedValue = tutorOvertimeWageCalculator("8-8-8-8-8-9-5", 1);
