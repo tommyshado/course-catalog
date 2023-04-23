@@ -4,7 +4,15 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
     let splitTimeSheet = timeSheet.split('-');
     // iterate starting from second last element
     for(let i = splitTimeSheet.length - 2; i < splitTimeSheet.length; i++) {
-        console.log(splitTimeSheet[i]);
+        const currentHours = Number(splitTimeSheet[i]);
+
+        if (tutorLvel === 1) {
+            overTimeHoursObj.levelOne += currentHours;
+        } else if (tutorLvel === 2) {
+            overTimeHoursObj.levelTwo += currentHours;
+        } else {
+            overTimeHoursObj.levelThree += currentHours;
+        }
     }
 }
 
