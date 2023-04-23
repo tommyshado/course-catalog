@@ -14,6 +14,7 @@ function tutorOvertimeWageCalculator(timeSheet, tutorLvel) {
             overTimeHoursObj.levelThree += currentHours;
         }
     }
+    console.log(overTimeHoursObj)
 }
 
 let returnedValue = tutorOvertimeWageCalculator("8-8-8-8-8-9-5", 1);
